@@ -22,7 +22,7 @@ public class Data {
             String document = "";
 
             while ((line = br.readLine()) != null) {
-                if(line.length() > 1) {
+                if(line.length() > 0) {
                     document += "\n" + line;
                 } else {
                     documents.add(index, document);
